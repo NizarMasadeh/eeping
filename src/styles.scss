@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/aura-dark-noir/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: var(--surface-ground);
+}
+
+
+.p-menuitem-link-active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn-low {
+    animation: fadeIn .3s;
+}
+
+.fadeIn-med {
+    animation: fadeIn .5s;
+}
+
+.fadeIn-high {
+    animation: fadeIn 5s !important;
+}
+
+.fadeIn-1 {
+    animation: fadeIn .5s;
+}
+
+.fadeIn-2 {
+    animation: fadeIn .8s;
+}
